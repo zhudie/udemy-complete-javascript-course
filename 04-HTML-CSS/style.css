@@ -1,18 +1,59 @@
+* {
+    /* comments * is for everything */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
 body {
     background-color: yellow;
     font-family: Arial;
     font-size: 20px;
+    padding: 50px;
+}
+
+p {
+    margin-bottom: 20px;
 }
 
 h1 {
     font-size: 50px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 .first {
     color: red;
 }
 
+#course-image {
+    width: 200px;
+}
+
 #your-name {
     background-color: rgb(128, 160, 141);
-    border: 5px solid #444
+    border: 5px solid #444;
+    width: 400px;
+    padding: 25px;
+    margin-top: 30px;
+}
+
+/* input AND the button css */
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+a {
+    background-color: yellowgreen;
+}
+
+#your-name h2 {
+    /*selecting a child */
+    color: olivedrab;
 }
